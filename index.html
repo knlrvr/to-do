@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>To Do App</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+<body>
+	<main class="app">
+		<section class="greeting">
+			<h2 class="title">
+				Welcome, <input type="text" id="name" placeholder="Type Name Here" />
+			</h2>
+		</section>
+		<section class="create-todo">
+			<h4>NEW TASK</h4>
+			<form id="new-todo-form">
+				<input 
+					type="text" 
+					placeholder="Click Here To Add Task"
+					name="content"
+					id="content" 
+                />
+				<h4>CATEGORY</h4>
+				<div class="options">
+					<label>
+						<input type="radio" 
+                               name="category" 
+                               id="category1" 
+                               value="personal" 
+                        /> 
+						<span class="bubble personal"></span>
+						<div>Personal</div>
+					</label>
+					<label>
+						<input type="radio"
+                               name="category" 
+                               id="category2" 
+                               value="work" 
+                        />
+						<span class="bubble work"></span>
+						<div>Work</div>
+					</label>
+                    <label>
+						<input type="radio" 
+                               name="category" 
+                               id="category3" 
+                               value="home" 
+                        />
+						<span class="bubble home"></span>
+						<div>Home</div>
+					</label>
+                    <label>
+						<input type="radio" 
+                               name="category" 
+                               id="category4" 
+                               value="misc" 
+                        />
+						<span class="bubble misc"></span>
+						<div>Miscellaneous</div>
+					</label>
+				</div>
+				<input type="submit" value="Add" />
+			</form>
+		</section>
+		<section class="todo-list">
+			<h4>CURRENT TASKS</h4>
+			<div class="list" id="todo-list"></div>
+		</section>
+	</main>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
