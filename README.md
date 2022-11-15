@@ -3,7 +3,7 @@
 ![Screen Shot 2022-11-15 at 5 00 51 PM](https://user-images.githubusercontent.com/91632194/202034312-486314be-6202-43e3-8c44-3ab7276d0ec2.png)
 
 ## Description 
-This is a to do list. It uses local storage to save your list and your name (which you can change by clicking just after 'Welcome' at the top). It also categorizes your list items and color codes them based on category.  
+This is a to do list. It uses local storage to save your list and your name (which you can change by clicking just after 'Welcome' at the top). It also categorizes your list items and color codes them based on category. You can edit the items you've added, or delete them completely. 
 
 ## View 
 [Live Demo](https://knlrvr.github.io/to-do)
