@@ -6,7 +6,7 @@
 This is a to do list. It uses local storage to save your list and your name (which you can change by clicking just after 'Welcome' at the top). It also categorizes your list items and color codes them based on category.  
 
 ## View 
-[Live Demo](https://knlrvr.github.io/to-do
+[Live Demo](https://knlrvr.github.io/to-do)
 
 ## Built With
 - HTML
